@@ -8,6 +8,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Genbody America</title>
+
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="images/favicon.png" />
     <!-- Bootstrap CSS -->
@@ -28,7 +29,7 @@
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse " id="navbarNav">
+         <div class="collapse navbar-collapse  justify-content-end " id="navbarNav">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link"  href="#INSTRUCTIONS">INSTRUCTIONS</a>
@@ -166,7 +167,7 @@
           <div class="row">
             <div class="col-md-6 text-center">
               <img class="top-faq-image" src="V2/assests/step-open-swab.svg"  id="top-faq-image" alt="box" /><br><br>
-              <button class="signin mt-4" >See Full FAQ</button>
+               <a href="#FullFAQ">   <button class="signin mt-4" >See Full FAQ</button></a>
               <br><br> 
             </div>
             <div class="col-md-6" style="margin-top: 5%;margin-bottom: 5%;">
@@ -349,8 +350,8 @@
 
       <div id="PRESS" class="news" style="background-image: url('V2/assests/white-01.jpg');">
         <div class="container">
-          <div class="row" >
-            <div class="col-md-6 text-center" style="margin-bottom: 5%;">
+          <div class="row d-flex align-items-center" >
+            <div class="col-md-6 text-center" >
               <img style=" margin-top: 15%;" width="100%" src="V2/assests/faq_assets/kids-1280x736.jpg" alt="box" />
               <h2 style="font-size: 36px;">IN THE NEWS</h2>
             </div>
@@ -386,7 +387,7 @@
         </div>
 
       <br>  <br>
-     <div class="question">
+     <div id="FullFAQ" class="question">
          <h3  style="font-weight: 300;font-size:55px;" class="text-center">Frequently Asked Questions</h3>
      </div>
      <br/>
@@ -410,7 +411,7 @@
             </ol>
           </div>
           <div class="col-lg-6 col-sm-12 ">
-            <ol class="ol">
+            <ol class="continue ">
               
             
             </ol>
@@ -430,7 +431,7 @@
             </ol>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <ol class="ol">
+             <ol class="continue"  >
               <li><a data-bs-toggle="modal" data-bs-target="#faqModal" onclick="selectFaqModalContent(8)"> What are the approved alternatives?</a></li>
               <li><a data-bs-toggle="modal" data-bs-target="#faqModal" onclick="selectFaqModalContent(9)"> How many times should the patient be tested to ensure accuracy?</a></li>
               <li><a data-bs-toggle="modal" data-bs-target="#faqModal" onclick="selectFaqModalContent(10)"> Is the test reusable?</a></li>
@@ -452,7 +453,7 @@
             </ol>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <ol class="ol">
+             <ol class="continue"  >
               
             </ol>
           </div>
@@ -471,7 +472,7 @@
             </ol>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <ol class="ol">
+             <ol class="continue"  >
               <li><a data-bs-toggle="modal" data-bs-target="#faqModal" onclick="selectFaqModalContent(20)"> Is the extraction solution in the bottle harmful?</a></li>
               <li><a data-bs-toggle="modal" data-bs-target="#faqModal" onclick="selectFaqModalContent(21)"> Who can be tested?</a></li>
               <li><a data-bs-toggle="modal" data-bs-target="#faqModal" onclick="selectFaqModalContent(22)"> Should people who were vaccinated use this test?</a></li>
@@ -491,7 +492,7 @@
             </ol>
           </div>
           <div class="col-lg-6 col-sm-12">
-            <ol class="ol">
+             <ol class="continue">
               
             </ol>
           </div>
@@ -648,7 +649,7 @@
                   <button  onclick="selectModalContent(0)" id="step-btn"    class="signin">Next Step</button></div>
                  <br>
                  <br>
-                 <div class="row"> 
+                 <div class="row pb-5" > 
                   <div class="col-4"> 
                     <p style="color: #BC2F2C;">Prepare the Kit</p>
                     <div class="active-step-indicator" id="indicator-1" style="background-color:#bc2f2c;"></div>
